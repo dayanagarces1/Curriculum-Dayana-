@@ -1,0 +1,126 @@
+#contenedor{
+    border-radius: 20px;
+    width: 800px;
+    height: 1250px;
+    border: 1px solid; 
+    position: relative;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: rgb(231, 245, 245);
+}
+
+.cabecera{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(117, 240, 223);
+    height: 50px;
+}
+
+.principal{
+    margin: 10px;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+}
+
+.pie{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(117, 240, 223);
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#box1{
+    float: left;
+    background-color: lightgray;
+    width: 250px;
+    position: absolute;
+    top: 110px;
+    bottom: 30px;
+    left: 10px;
+    right: 0px;
+    padding: 10px;
+}
+
+#box2{
+    float: right;
+    width: 450px;
+    position: absolute;
+    top: 110px;
+    bottom: 30px;
+    left: 300px;
+    right: 0px;
+    padding: 10px;
+}
+
+img{
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+#idioma{
+    display:inline;
+    float:left;
+}
+
+#dotted{
+    display:inline;
+    float:right;
+}
+
+#i1{
+    
+    display:inline;
+}
+
+.circle1{
+    display:inline;
+    float: right;
+    padding: 4px;
+    margin: 2px;
+    background-color: blue;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 1px solid black;
+    }
+
+.circle2{
+    display:inline;
+    float: right;
+    padding: 4px;
+    margin: 2px;
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 1px solid black;
+    }
+
+.derecha{
+    float: left;
+}
+
+.izquierda{
+    float: right;
+}
+
+.t1{
+    width: 440px;
+    position: absolute;
+}
+h2{
+    color: rgb(218, 53, 94);
+    }
+h1{
+    color: rgb(97, 35, 196);
+    }
